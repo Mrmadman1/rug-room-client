@@ -1,0 +1,112 @@
+
+# RugRoom Installation Guide
+
+Requirements
+------------
+- Windows 10/11 64-bit
+- Internet connection
+- VR headset (optional):
+  - Meta Quest via Link/Air Link
+  - SteamVR headset
+
+
+Downloading RugRoom
+-------------------
+Download the RugRoom client package.
+
+The folder should contain:
+
+RugRoom/
+|
+|-- BepInEx/
+|-- RecRoom_Data/
+|-- recroom.exe
+|-- RecRoomScreen.bat
+|-- RecRoomVR.bat
+|-- download.bat
+
+Do not move files out of this folder.
+
+
+Installing the Client
+---------------------
+Run:
+
+download.bat
+
+This will:
+- Download required game files
+- Install BepInEx
+- Prepare the client
+
+Wait until it fully completes.
+
+
+Launching RugRoom
+-----------------
+
+Desktop Mode:
+Run:
+
+RecRoomScreen.bat
+
+
+VR Mode:
+1. Connect your headset to your PC.
+2. Start SteamVR or Oculus Link/Air Link.
+3. Run:
+
+RecRoomVR.bat
+
+
+Account Creation
+----------------
+When RugRoom opens:
+
+1. Select Create Account.
+2. Enter your information.
+3. Finish registration.
+4. Log in.
+
+
+Troubleshooting
+---------------
+
+Stuck on Creating Account:
+- Check BepInEx/LogOutput.log
+- Make sure the server is online.
+
+VR Does Not Start:
+- Make sure SteamVR is running.
+- Make sure your headset is connected.
+- Use RecRoomVR.bat.
+
+Game Closes Immediately:
+- Check BepInEx/LogOutput.log for errors.
+
+
+Updating RugRoom
+----------------
+1. Close RugRoom.
+2. Replace the client files with the newest version provided in the discord. 
+3. Run download.bat if required.
+
+
+Controls
+--------
+
+Desktop:
+- WASD: Move
+- Mouse: Look
+- Space: Jump
+
+VR:
+- Left controller: Movement
+- Right controller: Look and interaction
+
+
+Credits
+-------
+RugRoom Client
+RecFlare Server
+BepInEx Framework
