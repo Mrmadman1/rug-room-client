@@ -1,6 +1,6 @@
-# RecFlare client
+# Rug Room Client
 
-Autoamtic setup of the game client to connect to the testing [RecFlare](https://github.com/djdevin/recflare) instance.
+Hello! This is mainly for friends to goof off in small bunches. Right now, the player limit is # 20 CCU.
 
 ## Download
 
@@ -11,6 +11,3 @@ Check out this repository or extract the ZIP: https://github.com/djdevin/recflar
 1. Run `download.bat`. The script will download the game client from Steam and apply patches and configuration.
 2. Run `RecRoomScreen.bat` or `RecRoomVR.bat`
 
-## Custom server
-
-Fork this project and change `/BepInEx/config/net.rec.plugin.cfg` to your own instance.
