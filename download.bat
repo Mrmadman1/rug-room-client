@@ -24,6 +24,9 @@ del DepotDownloader.zip
 echo %CYAN%=== Downloading Rec Room depot via DepotDownloader (will prompt for Steam password) ===%RESET%
 DepotDownloader\DepotDownloader.exe -remember-password -app 471710 -depot 471711 -manifest 7859140924515540835 -dir . -username "%STEAM_USERNAME%" || goto :error
 
+echo %CYAN%=== Writing steam_appid.txt ===%RESET%
+>steam_appid.txt echo 480
+
 echo %CYAN%=== Downloading BepInEx and extracting to this directory ===%RESET%
 curl -f -L -o BepInEx.zip https://github.com/BepInEx/BepInEx/releases/download/v6.0.0-pre.2/BepInEx-Unity.IL2CPP-win-x64-6.0.0-pre.2.zip || goto :error
 tar -xf BepInEx.zip -C . || goto :error
